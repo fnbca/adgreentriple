@@ -70,7 +70,7 @@ def get_credit(session_id):
     return None
 
 # Interface utilisateur Streamlit
-st.title("Formulaire de dépôt FIDEALIS pour adgreen inserer triple")
+st.title("Formulaire de dépôt FIDEALIS pour premium inserer triple")
 
 session_id = api_login()
 if session_id:
